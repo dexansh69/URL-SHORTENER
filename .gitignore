@@ -1,0 +1,10 @@
+node_modules
+dist
+coverage
+*.log
+pnpm-debug.log*
+.env
+.env.*
+.DS_Store
+apps/*/dist
+packages/*/dist
