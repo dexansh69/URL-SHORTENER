@@ -2,13 +2,14 @@
   "name": "url-shortener",
   "private": true,
   "version": "0.1.0",
+  "packageManager": "pnpm@11.12.0",
   "scripts": {
-    "dev": "pnpm --parallel --filter @url-shortener/backend --filter @url-shortener/frontend dev",
+    "dev": "turbo run dev",
     "dev:backend": "pnpm --filter @url-shortener/backend dev",
     "dev:frontend": "pnpm --filter @url-shortener/frontend dev",
-    "build": "pnpm -r build",
-    "lint": "pnpm -r lint",
-    "typecheck": "pnpm -r typecheck",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
     "format": "prettier --write ."
   },
   "devDependencies": {
@@ -20,6 +21,7 @@
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.0",
     "prettier": "^3.0.0",
+    "turbo": "^2.10.5",
     "typescript": "^5.6.0"
   }
 }

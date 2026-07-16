@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@url-shortener/db": "workspace:*",
     "@url-shortener/shared": "workspace:*",
     "express": "^4.21.2"
   },

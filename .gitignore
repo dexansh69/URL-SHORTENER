@@ -8,3 +8,9 @@ pnpm-debug.log*
 .DS_Store
 apps/*/dist
 packages/*/dist
+packages/db/src/generated/
+.pnpm-store
+.pnpm-store/
+.turbo/
+*.tsbuildinfo
+.github 
